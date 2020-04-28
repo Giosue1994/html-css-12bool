@@ -1,5 +1,5 @@
 /* DEBUG */
-.debug .container{
+.debug .container {
   background-color: lightblue;
   border: 2px solid blue;
 }
@@ -9,6 +9,8 @@
   height: 200px;
   border: 2px solid green;
   padding: 5px;
+  text-align: center;
+  line-height: 11;
 }
 
 .debug [class*="col-"] > .container [class*="col-"] {
