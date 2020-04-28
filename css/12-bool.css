@@ -1,18 +1,20 @@
 /* DEBUG */
 .debug .container{
   background-color: lightblue;
-  border: 1px solid blue;
+  border: 2px solid blue;
 }
+
 .debug [class*="col-"] {
   background-color: lightgreen;
   height: 200px;
-  border: 1px solid green;
+  border: 2px solid green;
+  padding: 5px;
 }
 
 .debug [class*="col-"] > .container [class*="col-"] {
   background-color: pink;
-  height: 200px;
-  border: 1px solid red;
+  border: 2px solid white;
+  height: 180px;
 }
 /* FINE DEBUG */
 
