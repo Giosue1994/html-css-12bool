@@ -1,0 +1,17 @@
+/* DEBUG */
+.debug .container,
+.debug [class*="col-"] {
+  border: 1px solid black;
+}
+
+.debug [class*="col-"] {
+  position: relative;
+}
+/* FINE DEBUG */
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

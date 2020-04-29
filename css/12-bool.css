@@ -9,14 +9,17 @@
   height: 200px;
   border: 2px solid green;
   padding: 5px;
-  text-align: center;
-  line-height: 11;
+}
+
+.debug [class*="col-"] > .container {
+  height: 100%;
+  border: none;
 }
 
 .debug [class*="col-"] > .container [class*="col-"] {
-  background-color: pink;
+  background-color: red;
   border: 2px solid white;
-  height: 180px;
+  height: 100%;
 }
 /* FINE DEBUG */
 
